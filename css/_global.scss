@@ -54,6 +54,10 @@ body{
     position: relative;
 }
 
+html, body {
+    background-color: $hash-grey!important;
+}
+
 a{
     color: unset!important;
 }

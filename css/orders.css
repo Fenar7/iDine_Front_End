@@ -1,0 +1,21 @@
+.table-items .text2 h1 {
+  color: #000;
+  font-family: inherit;
+  font-size: 1.35rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.5625rem; /* 125% */
+  letter-spacing: -0.03125rem;
+  margin-top: 1.7em !important;
+}
+.table-items .text2 p {
+  color: #040404;
+  font-family: inherit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.09375rem; /* 109.375% */
+  letter-spacing: -0.03125rem;
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}/*# sourceMappingURL=orders.css.map */

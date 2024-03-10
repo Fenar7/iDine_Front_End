@@ -38,27 +38,43 @@ nav{
 
 .slider{
     margin-top: 1.875em;
-    height: 120px;
+    height: 150px;
 
     .swiper {
         width: 100%;
         height: 100%;
-      }
+
+        .swiper-wrapper{
+            height: 80%!important;
+
+            .slide1{
+                margin-left: 1em;
+            }
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 280px!important;
+          }
+        
+          .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
     
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+          .swiper-pagination{
+            overflow: visible!important;
+            bottom: 0px!important;
+          }
       }
-    
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
+
+      
 }
 

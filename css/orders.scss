@@ -1,5 +1,4 @@
 @import "variables";
-
 .table-items{
     .text2{
         h1{
@@ -64,6 +63,31 @@
             line-height: 1.25rem; /* 153.846% */
             letter-spacing: -0.03125rem;
             margin-top: .2em;
+        }
+    }
+}
+
+.payment-methods-container{
+    margin-top: 2.5em;
+    row-gap: 0.4em;
+    .cardd{
+        height: 4.5em;
+        padding: 1em;
+
+        .icon{
+            height: 100%;
+        }
+
+        .content{
+            h1{
+                color: #000;
+                font-family: inherit;
+                font-size: 1.4rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 1.09375rem; /* 125% */
+                letter-spacing: -0.03125rem;
+            }
         }
     }
 }

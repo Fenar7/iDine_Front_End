@@ -28,17 +28,42 @@
 }
 
 .payment-status{
-    .item-no-fill{
-        width: 15px;
-        height: 15px;
-        background-color: transparent;
-        border: 1.5px solid $green;
-        border-radius: 50%;
+    margin: 0em 3em;
+    margin-top: 1.5em!important;
+    hr{
+        width: 4.625rem;
+        height: 0rem;
+        background-color: $black;
+        border: 1px solid $black;
+        opacity: 1;
+        outline: none;
+        border-radius: 1rem;
     }
-    .item-fill{
-        width: 15px;
-        height: 15px;
-        background-color: $green;
-        border-radius: 50%;
+    .item{
+        .circle-no-fill{
+            width: 15px;
+            height: 15px;
+            background-color: transparent;
+            border: 1.5px solid $green;
+            border-radius: 50%;
+        }
+
+        .circle-fill{
+            width: 15px;
+            height: 15px;
+            background-color: $green;
+            border-radius: 50%;
+        }
+
+        .text{
+            color: #000;
+            font-family: inherit;
+            font-size: 0.8125rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.25rem; /* 153.846% */
+            letter-spacing: -0.03125rem;
+            margin-top: .2em;
+        }
     }
 }

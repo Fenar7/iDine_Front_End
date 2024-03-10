@@ -18,4 +18,18 @@
   letter-spacing: -0.03125rem;
   margin-top: 1em !important;
   margin-bottom: 1em !important;
+}
+
+.payment-status .item-no-fill {
+  width: 15px;
+  height: 15px;
+  background-color: transparent;
+  border: 1.5px solid #2A9235;
+  border-radius: 50%;
+}
+.payment-status .item-fill {
+  width: 15px;
+  height: 15px;
+  background-color: #2A9235;
+  border-radius: 50%;
 }/*# sourceMappingURL=orders.css.map */

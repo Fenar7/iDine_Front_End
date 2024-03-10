@@ -78,7 +78,7 @@ a {
 }
 
 .container-large {
-  margin: 0em 0.75em;
+  margin: 0em 1.875em;
 }
 
 [class^=col-] {
@@ -231,4 +231,124 @@ nav {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.categories .category-cards {
+  margin-top: 1.25em;
+  row-gap: 1em;
+}
+.categories .category-cards .cardd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+.categories .category-cards .cardd img {
+  height: 55px;
+  width: 55px;
+}
+.categories .category-cards .cardd p {
+  color: #000;
+  font-family: "SF Pro Display";
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.special-offers .text {
+  margin-top: 2em;
+}
+.special-offers .text h1 {
+  color: #1F2937;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.special-offers .text p {
+  color: #6B7280;
+  font-family: "SF Pro Display";
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.special-offers .slider2 {
+  margin-top: 1.875em;
+  height: 270px;
+}
+.special-offers .slider2 .swiper {
+  width: 100%;
+  height: 100%;
+}
+.special-offers .slider2 .swiper .swiper-wrapper {
+  height: 90% !important;
+}
+.special-offers .slider2 .swiper .swiper-wrapper .slide1 {
+  margin-left: 1em;
+}
+.special-offers .slider2 .swiper .swiper-slide {
+  font-size: 18px;
+  border-radius: 28px;
+  display: flex;
+  width: 180px !important;
+  overflow: hidden;
+  padding: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  position: relative;
+}
+.special-offers .slider2 .swiper .swiper-slide h1 {
+  color: #FFF;
+  font-family: inherit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  z-index: 1;
+}
+.special-offers .slider2 .swiper .swiper-slide p {
+  color: #FFF;
+  font-family: inherit;
+  font-size: 0.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  z-index: 1;
+}
+.special-offers .slider2 .swiper .swiper-slide .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: 0;
+}
+.special-offers .slider2 .swiper .slide1 {
+  background-image: url(/images/burgermeal.jpeg);
+}
+.special-offers .slider2 .swiper .slide2 {
+  background-image: url(/images/fried\ chicken.jpeg);
+}
+.special-offers .slider2 .swiper .slide3 {
+  background-image: url(/images/pizza.jpeg);
+}
+.special-offers .slider2 .swiper .slide4 {
+  background-image: url(/images/pizza.jpeg);
+}
+.special-offers .slider2 .swiper .swiper-pagination {
+  overflow: visible !important;
+  bottom: 0px !important;
+  display: none !important;
+}
+.special-offers .slider2 .swiper .swiper-pagination span {
+  background-color: #2A9235;
 }/*# sourceMappingURL=style.css.map */

@@ -351,4 +351,24 @@ nav {
 }
 .special-offers .slider2 .swiper .swiper-pagination span {
   background-color: #2A9235;
+}
+
+.top-products .text {
+  margin-bottom: 0.9em;
+}
+.top-products .text h1 {
+  color: #1F2937;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.top-products .text p {
+  color: #6B7280;
+  font-family: "SF Pro Display";
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */

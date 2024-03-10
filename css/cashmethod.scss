@@ -1,3 +1,6 @@
+
+@import "variables";
+
 .info-text{
     color: #000;
     font-family: inherit;
@@ -6,4 +9,24 @@
     font-weight: 600;
     line-height: 1.93175rem; /* 140.491% */
     letter-spacing: 0.00344rem;
+}
+
+.btn-row{
+    button{
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: $green;
+        color: $white;
+        text-align: center;
+        font-family: inherit;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding: 0.8em 0em;
+        border-radius: 0.7rem;
+        margin-top: 2.5em;
+        margin-bottom: 1em;
+    }
 }

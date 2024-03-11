@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 .info-text {
   color: #000;
   font-family: inherit;
@@ -9,7 +13,7 @@
 }
 
 .btn-row button {
-  width: 100%;
+  width: 95%;
   border: none;
   outline: none;
   background-color: #2A9235;
@@ -24,4 +28,40 @@
   border-radius: 0.7rem;
   margin-top: 2.5em;
   margin-bottom: 1em;
+  position: fixed;
+  bottom: 0%;
+}
+@media (max-width: 375px) {
+  .btn-row button {
+    position: unset;
+    width: 100% !important;
+  }
+}
+
+.staff-id-container {
+  margin-top: 2em;
+}
+.staff-id-container .text {
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+.staff-id-container .text h3 {
+  color: #000;
+  font-family: inherit;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.375rem; /* 110% */
+  letter-spacing: -0.02563rem;
+}
+.staff-id-container .input-container {
+  width: 100%;
+}
+.staff-id-container .input-container input {
+  outline: none;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  border: 1px solid #6B7280;
+  background: #FFF;
 }/*# sourceMappingURL=cashmethod.css.map */

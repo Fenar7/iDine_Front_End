@@ -6,13 +6,11 @@
 
 .main-container {
   height: calc(90vh - 2em);
-  background-color: red;
   display: grid;
   grid-template-rows: 60% 40%;
 }
 .main-container .image {
   overflow: hidden;
-  background-color: blue;
 }
 .main-container .image img {
   width: 90%;

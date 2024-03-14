@@ -8,14 +8,12 @@ flex-shrink: 0;
 
 .main-container{
     height: calc(90vh - 2em);
-    background-color: red;
 
     display: grid;
     grid-template-rows: 60% 40%;
 
     .image{
         overflow: hidden;
-        background-color: blue;
 
         img{
             width: 90%;

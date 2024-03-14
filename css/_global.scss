@@ -102,3 +102,26 @@ a{
 .container-small{
     margin: 0 1em;
 }
+
+.bottom-nav-bar{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 5rem;
+    flex-shrink: 0;
+    border-radius: 1.3125rem 1.3125rem 0rem 0rem;
+    background: #F6FFF4;
+    z-index: 100;
+    padding: 0em 1.9em;
+
+    .item{
+        p{
+            color: #000;
+            font-family: inherit;
+            font-size: 0.75rem;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+    }
+}

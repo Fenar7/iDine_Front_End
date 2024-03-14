@@ -55,6 +55,7 @@
 .item-cards-container .item-cardd .heading {
   gap: 0.6em;
   width: 100%;
+  margin-bottom: 0.3em;
 }
 .item-cards-container .item-cardd .heading h1 {
   color: #131313;
@@ -71,6 +72,15 @@
   height: 1.1875rem;
   flex-shrink: 0;
 }
+.item-cards-container .item-cardd .heading .false {
+  display: none !important;
+}
+.item-cards-container .item-cardd .heading .false .true {
+  display: inline-block;
+}
+.item-cards-container .item-cardd .price {
+  margin-bottom: 0.3em;
+}
 .item-cards-container .item-cardd .price h1 {
   color: #434343;
   font-family: inherit;
@@ -83,6 +93,9 @@
 .item-cards-container .item-cardd .btm-row {
   display: grid;
   grid-template-columns: 60% 40%;
+}
+.item-cards-container .item-cardd .btm-row .left .rating {
+  margin-bottom: 0.3em;
 }
 .item-cards-container .item-cardd .btm-row .left .rating p {
   color: #4CAF50;
@@ -101,4 +114,43 @@
   font-weight: 400;
   line-height: 0.9375rem; /* 115.385% */
   letter-spacing: 0.00813rem;
+}
+.item-cards-container .item-cardd .btm-row .left .text p span {
+  color: #2E2E2E;
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.9375rem;
+  letter-spacing: 0.00813rem;
+}
+.item-cards-container .item-cardd .btm-row .right button {
+  display: flex;
+  width: 6.5rem;
+  padding: 0.1875rem 2.1875rem;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border-radius: 0.25rem;
+  border: 0.5px solid #4CAF50;
+  background: #FFF;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #4CAF50;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem; /* 175% */
+  letter-spacing: 0.01rem;
+}
+.item-cards-container .item-cardd .btm-row .right p {
+  color: #B1B1B1;
+  text-align: center;
+  font-family: inherit;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem; /* 280% */
+  letter-spacing: 0.00625rem;
 }/*# sourceMappingURL=categories.css.map */

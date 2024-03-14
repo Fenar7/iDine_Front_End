@@ -1,3 +1,61 @@
 .scan-card {
   margin-top: -30px !important;
+}
+
+.card-form {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-form .input-row {
+  margin-top: 1.25em;
+}
+.card-form .input-row h6 {
+  color: #6B7280;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.375rem; /* 157.143% */
+  letter-spacing: -0.02563rem;
+  margin-bottom: 0.2em !important;
+}
+.card-form .input-row input {
+  border-radius: 0.5rem;
+  border: 1px solid #D9D0E3;
+  background: #FFF;
+  height: 2.5rem !important;
+  flex-shrink: 0;
+  width: calc(100% - 1em);
+}
+.card-form .input-row input:focus {
+  outline: none;
+  border: 1px solid #2A9235;
+}
+
+.btn-row button {
+  width: 95%;
+  border: none;
+  outline: none;
+  background-color: #2A9235;
+  color: #F9FAFC;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0.8em 0em;
+  border-radius: 0.7rem;
+  margin-top: 2.5em;
+  margin-bottom: 1em;
+  position: fixed;
+  bottom: 0%;
+}
+@media (max-width: 375px) {
+  .btn-row button {
+    position: unset;
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=creditcard.css.map */

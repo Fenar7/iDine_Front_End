@@ -1,0 +1,30 @@
+@import "variables";
+
+.header{
+    margin-top: 2.5em;
+height: 2.0625rem;
+flex-shrink: 0;
+}
+
+.main-container{
+    height: calc(90vh - 2em);
+    background-color: red;
+
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+    .image{
+        overflow: hidden;
+        background-color: blue;
+
+        img{
+            width: 90%;
+        }
+    }
+
+    .details{
+        border-radius: 1.4375rem;
+        background: #FFF;
+        box-shadow: 4px 4px 35px -2px rgba(0, 0, 0, 0.25);
+    }
+}

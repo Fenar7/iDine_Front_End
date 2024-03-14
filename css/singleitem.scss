@@ -11,7 +11,7 @@ flex-shrink: 0;
     background-color: red;
 
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 60% 40%;
 
     .image{
         overflow: hidden;
@@ -27,6 +27,8 @@ flex-shrink: 0;
         background: #FFF;
         box-shadow: 4px 4px 35px -2px rgba(0, 0, 0, 0.25);
         padding: 1rem;
+        gap: 5%;
+        justify-content: center;
 
         .rating-quantity-row{
             .rating{
@@ -38,6 +40,122 @@ flex-shrink: 0;
                     font-style: normal;
                     font-weight: 700;
                     line-height: 2.25rem; /* 180% */
+                }
+            }
+
+            .quantity{
+                gap: 1em;
+                p{
+                    color: #4CAF50;
+                    text-align: center;
+                    font-family: inherit;
+                    font-size: 2rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 2.25rem; /* 112.5% */
+                }
+
+                .number{
+                    background-color: $green;
+                    border-radius: .3rem;
+                    width: 3rem;
+                    height: 2.5625rem;
+                    flex-shrink: 0;
+
+                    h2{
+                        color: #FFF;
+                        text-align: center;
+                        font-family: inherit;
+                        font-size: 1.5rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 2.25rem; /* 150% */
+                    }
+                }
+            }
+        }
+
+        .heading-row{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            .heading{
+                h1{
+                    color: #000;
+                    font-family: inherit;
+                    font-size: 2rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 2.25rem; /* 112.5% */
+                }
+            }
+
+            .time{
+                p{
+                    color: #000;
+                    font-family: inherit;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 2.25rem; /* 225% */
+                }
+            }
+        }
+
+        .description-row{
+            height: 20%;
+            overflow: auto;
+
+
+            p{
+                color: #6B7280;
+                font-family: inherit;
+                font-size: 0.725rem;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 0.75rem; /* 120% */
+            }
+        }
+
+        .cta-row{
+            .price{
+                p{
+                    color: #2A9235;
+                    text-align: center;
+                    font-family: inherit;
+                    font-size: 1.125rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 2.25rem; /* 200% */
+
+                    span{
+                        color: #000;
+                        font-family: inherit;
+                        font-size: 1.75rem;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 2.25rem;
+                    }
+                }
+            }
+
+            .add-to-plate{
+                button{
+                    gap: .5em;
+                    outline: none;
+                    width: 10.6875rem;
+                    height: 2.5625rem;
+                    flex-shrink: 0;
+                    background-color: $green;
+                    border: none;
+                    border-radius: .5em;
+
+                    color: #FFF;
+                    text-align: center;
+                    font-family: inherit;
+                    font-size: 1rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 2.25rem; /* 225% */
                 }
             }
         }

@@ -8,7 +8,7 @@
   height: calc(90vh - 2em);
   background-color: red;
   display: grid;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 60% 40%;
 }
 .main-container .image {
   overflow: hidden;
@@ -22,6 +22,8 @@
   background: #FFF;
   box-shadow: 4px 4px 35px -2px rgba(0, 0, 0, 0.25);
   padding: 1rem;
+  gap: 5%;
+  justify-content: center;
 }
 .main-container .details .rating-quantity-row .rating {
   gap: 0.3em;
@@ -33,4 +35,98 @@
   font-style: normal;
   font-weight: 700;
   line-height: 2.25rem; /* 180% */
+}
+.main-container .details .rating-quantity-row .quantity {
+  gap: 1em;
+}
+.main-container .details .rating-quantity-row .quantity p {
+  color: #4CAF50;
+  text-align: center;
+  font-family: inherit;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem; /* 112.5% */
+}
+.main-container .details .rating-quantity-row .quantity .number {
+  background-color: #2A9235;
+  border-radius: 0.3rem;
+  width: 3rem;
+  height: 2.5625rem;
+  flex-shrink: 0;
+}
+.main-container .details .rating-quantity-row .quantity .number h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem; /* 150% */
+}
+.main-container .details .heading-row {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.main-container .details .heading-row .heading h1 {
+  color: #000;
+  font-family: inherit;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem; /* 112.5% */
+}
+.main-container .details .heading-row .time p {
+  color: #000;
+  font-family: inherit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem; /* 225% */
+}
+.main-container .details .description-row {
+  height: 20%;
+  overflow: auto;
+}
+.main-container .details .description-row p {
+  color: #6B7280;
+  font-family: inherit;
+  font-size: 0.725rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 0.75rem; /* 120% */
+}
+.main-container .details .cta-row .price p {
+  color: #2A9235;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem; /* 200% */
+}
+.main-container .details .cta-row .price p span {
+  color: #000;
+  font-family: inherit;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+.main-container .details .cta-row .add-to-plate button {
+  gap: 0.5em;
+  outline: none;
+  width: 10.6875rem;
+  height: 2.5625rem;
+  flex-shrink: 0;
+  background-color: #2A9235;
+  border: none;
+  border-radius: 0.5em;
+  color: #FFF;
+  text-align: center;
+  font-family: inherit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.25rem; /* 225% */
 }/*# sourceMappingURL=singleitem.css.map */

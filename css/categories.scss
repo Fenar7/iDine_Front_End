@@ -88,5 +88,10 @@
                 letter-spacing: 0.00875rem;
             }
         }
+
+        .btm-row{
+            display: grid;
+            grid-template-columns: 60% 40%;
+        }
     }    
 }

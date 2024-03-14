@@ -79,4 +79,8 @@
   font-weight: 600;
   line-height: 0.9375rem; /* 107.143% */
   letter-spacing: 0.00875rem;
+}
+.item-cards-container .item-cardd .btm-row {
+  display: grid;
+  grid-template-columns: 60% 40%;
 }/*# sourceMappingURL=categories.css.map */

@@ -92,6 +92,32 @@
         .btm-row{
             display: grid;
             grid-template-columns: 60% 40%;
+
+            .left{
+                .rating{
+                    p{
+                        color: #4CAF50;
+                        font-family: inherit;
+                        font-size: 0.8125rem;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 0.9375rem; /* 115.385% */
+                        letter-spacing: 0.00813rem;
+                    }
+                }
+
+                .text{
+                    p{
+                        color: #2E2E2E;
+                        font-family: inherit;
+                        font-size: 0.8125rem;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 0.9375rem; /* 115.385% */
+                        letter-spacing: 0.00813rem;
+                    }
+                }
+            }
         }
     }    
 }

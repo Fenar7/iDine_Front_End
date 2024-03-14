@@ -54,7 +54,39 @@
 }
 
 .item-cards-container{
-    padding: 1.2em 0.75em;
 
-    
+    .item-cardd{
+        .heading{
+            gap: 0.6em;
+            width: 100%;
+            h1{
+                color: #131313;
+                font-family: inherit;
+                font-size: 1rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 1.75rem; /* 175% */
+                letter-spacing: 0.01rem;
+                display: inline;
+            }
+
+           img{
+            width: 1.1875rem;
+            height: 1.1875rem;
+            flex-shrink: 0;
+           }
+        }
+
+        .price{
+            h1{
+                color: #434343;
+                font-family: inherit;
+                font-size: 0.875rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 0.9375rem; /* 107.143% */
+                letter-spacing: 0.00875rem;
+            }
+        }
+    }    
 }

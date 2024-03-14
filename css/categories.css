@@ -52,6 +52,31 @@
   letter-spacing: 0.00875rem;
 }
 
-.item-cards-container {
-  padding: 1.2em 0.75em;
+.item-cards-container .item-cardd .heading {
+  gap: 0.6em;
+  width: 100%;
+}
+.item-cards-container .item-cardd .heading h1 {
+  color: #131313;
+  font-family: inherit;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75rem; /* 175% */
+  letter-spacing: 0.01rem;
+  display: inline;
+}
+.item-cards-container .item-cardd .heading img {
+  width: 1.1875rem;
+  height: 1.1875rem;
+  flex-shrink: 0;
+}
+.item-cards-container .item-cardd .price h1 {
+  color: #434343;
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.9375rem; /* 107.143% */
+  letter-spacing: 0.00875rem;
 }/*# sourceMappingURL=categories.css.map */

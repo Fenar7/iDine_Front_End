@@ -9,6 +9,11 @@
   display: grid;
   grid-template-rows: 60% 40%;
 }
+@media (max-width: 380px) {
+  .main-container {
+    grid-template-rows: 50% 50%;
+  }
+}
 .main-container .image {
   overflow: hidden;
 }
